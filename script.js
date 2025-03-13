@@ -1,6 +1,5 @@
 // get the data from the array of objects:
 const animals = require("./data");
-
 // init express function module and save it as an express var:
 const express = require("express");
 // init the express module and save it to app var:
@@ -13,10 +12,15 @@ app.get("/", (req, res) => {
     res.send('<h1> Welcome to my Assignment page</h1>');
 });
 
-// animals route:
+// animals route to get info about one animal randomly:
+// app.get("/animals", (req, res) => {
+//     const randomAnimal = animals[Math.floor(Math.random() * animals.length)];
+//     res.send(randomAnimal);
+// });
+
+// animal route to see all animals in the data file:
 app.get("/animals", (req, res) => {
-    const randomAnimal = animals[Math.floor(Math.random() * animals.length)];
-    res.send(randomAnimal);
+    res.send(animals);
 });
 
 // This listen runs the PORT and starts the server:
