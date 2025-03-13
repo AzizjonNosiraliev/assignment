@@ -1,0 +1,14 @@
+const animals = [
+
+    { name: 'American bison', class: 'mammal', herbivore: true, region: 'North America', youTube: "L4eOhuLDfeU", desc: 'Bison are the iconic image of the Great Plains and the Old West. They are massive, shaggy beasts and the heaviest land animals in North America. Despite their hefty size, bison are quick on their feet. When the need arises they can run at speeds up to 40 miles (65 km) an hour. Their curved, sharp horns can grow to be 2 feet (61 cm) long. Once roaming in vast herds, the species nearly became extinct by a combination of commercial hunting and slaughter in the 19th century.' },
+
+    { name: 'Andean bear', class: 'mammal', herbivore: false, region: 'South America', youTube: "rwIwRH6r8KY", desc: 'The Andean bear, or spectacled bear, is the only bear native to South America. It is a clever, arboreal animal that builds platforms and nests in trees for eating and sleeping. Whitish or cream spectacles encircle these bears\' eyes. The light color variably extends down to the animals\' throats and chests, giving each individual a unique set of markings. Andean bears\' thick coats are usually either black or brown.' },
+
+    { name: 'Andean condor', class: 'bird', herbivore: false, region: 'South America', youTube: "aeoIg0rvXPg", desc: 'The Andean condor is a South American bird in the New World vulture family Cathartidae and is the only member of the genus Vultur. Found in the Andes mountains and adjacent Pacific coasts of western South America, the Andean condor is the largest flying bird in the world by combined measurement of weight and wingspan. It has a maximum wingspan of 3.3 m (10 ft 10 in) and weight of 15 kg (33 lb).' },
+
+    { name: 'giraffe', class: 'mammal', herbivore: true, region: 'Africa', youTube: "P_ckAbOr0r4", desc: 'The giraffe is a tall African hoofed mammal belonging to the genus Giraffa. It is the tallest living terrestrial animal and the largest ruminant on Earth. Female giraffes are up to 14 feet tall and weigh up to 1,500 pounds. Meanwhile, males are up to 18 feet tall and can weigh 3,000 pounds. At this height, a giraffe can look into a second-story window. The giraffe\'s chief distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, and its spotted coat patterns. '},
+
+    { name: 'green anaconda', class: 'reptile', herbivore: false, region: 'South America', youTube: "gP0xoRrf8i0", desc: 'The green anaconda is the largest snake in the world in weight and length. It can reach a length of 30 feet (9 m) and weigh up to 550 pounds (227 kg). The green anaconda is a member of a family of snakes called constrictors. Constrictors are not venomous snakes. They don\'t kill prey by delivering venom through a bite. Instead, constrictors wrap their bodies around their prey and squeeze until it stops breathing.'}
+];
+
+module.exports = animals;
